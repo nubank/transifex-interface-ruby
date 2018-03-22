@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://www.transifex.com/api/2/projects
+    uri: https://www.transifex.com/api/2/projects
     body:
       encoding: UTF-8
       string: '{"slug":"private-ruby-client","name":"Private Ruby Client","description":"Private
@@ -54,7 +54,7 @@ http_interactions:
   recorded_at: Wed, 03 May 2017 14:46:17 GMT
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/private-ruby-client
+    uri: https://www.transifex.com/api/2/project/private-ruby-client
     body:
       encoding: UTF-8
       string: "{}"

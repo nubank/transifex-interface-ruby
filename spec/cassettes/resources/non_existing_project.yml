@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/not_existing_project/resources
+    uri: https://www.transifex.com/api/2/project/not_existing_project/resources
     body:
       encoding: UTF-8
       string: "{}"
@@ -50,6 +50,6 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: Not Found
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 15:42:47 GMT
 recorded_with: VCR 3.0.3

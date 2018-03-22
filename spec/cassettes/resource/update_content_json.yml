@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/json
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/json
     body:
       encoding: UTF-8
       string: "{}"
@@ -58,7 +58,7 @@ http_interactions:
   recorded_at: Fri, 05 May 2017 08:11:20 GMT
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/json/content
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/json/content
     body:
       encoding: UTF-8
       string: '{"i18n_type":"KEYVALUEJSON","content":"{\"test_string\":\"test string

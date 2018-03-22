@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
     body:
       encoding: UTF-8
       string: "{}"
@@ -51,11 +51,11 @@ http_interactions:
                 "nirnaeth"
             ]
         }
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 15:44:13 GMT
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en/translators
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en/translators
     body:
       encoding: UTF-8
       string: '{"coordinators":["nirnaeth"],"translators":["mupo"]}'
@@ -99,11 +99,11 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: OK
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 15:44:13 GMT
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en/translators
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en/translators
     body:
       encoding: UTF-8
       string: "{}"
@@ -152,6 +152,6 @@ http_interactions:
                 "mupo"
             ]
         }
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 15:44:13 GMT
 recorded_with: VCR 3.0.3

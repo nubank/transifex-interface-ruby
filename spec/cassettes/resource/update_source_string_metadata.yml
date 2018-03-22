@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/json/source/e5152a2c9591f8ee13ba2c4e00655ae2
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/json/source/e5152a2c9591f8ee13ba2c4e00655ae2
     body:
       encoding: UTF-8
       string: '{"comment":"my comment","character_limit":140,"tags":["tag1","tag2"]}'
@@ -46,11 +46,11 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: OK
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 10:07:01 GMT
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/json/source/e5152a2c9591f8ee13ba2c4e00655ae2
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/json/source/e5152a2c9591f8ee13ba2c4e00655ae2
     body:
       encoding: UTF-8
       string: "{}"
@@ -95,6 +95,6 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "{\n    \"comment\": \"my comment\", \n    \"character_limit\": 140,
         \n    \"tags\": [\n        \"tag1\", \n        \"tag2\"\n    ]\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 10:07:02 GMT
 recorded_with: VCR 3.0.3

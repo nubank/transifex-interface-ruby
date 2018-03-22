@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test
     body:
       encoding: UTF-8
       string: "{}"
@@ -58,7 +58,7 @@ http_interactions:
   recorded_at: Thu, 27 Apr 2017 14:08:57 GMT
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/content
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/content
     body:
       encoding: UTF-8
       string: '{"i18n_type":"YAML","content":"eo:\n  test_string: \"test string\"\n"}'

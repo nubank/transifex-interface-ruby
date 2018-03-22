@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
     body:
       encoding: UTF-8
       string: '{"coordinators":["nirnaeth"]}'
@@ -46,11 +46,11 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: OK
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 16:18:33 GMT
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en/coordinators
     body:
       encoding: UTF-8
       string: "{}"
@@ -99,6 +99,6 @@ http_interactions:
                 "nirnaeth"
             ]
         }
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 16:18:33 GMT
 recorded_with: VCR 3.0.3

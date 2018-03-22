@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en
     body:
       encoding: UTF-8
       string: '{"i18n_type":"YAML","content":"en:  \n  routes:\n    mercury_editor:
@@ -57,6 +57,6 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "{\n    \"strings_added\": 0, \n    \"strings_updated\": 0, \n    \"strings_delete\":
         0, \n    \"redirect\": \"/freego/ruby-client/test/\"\n}"
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 09:59:01 GMT
 recorded_with: VCR 3.0.3

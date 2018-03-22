@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/projects
+    uri: https://www.transifex.com/api/2/projects
     body:
       encoding: UTF-8
       string: "{}"
@@ -56,6 +56,6 @@ http_interactions:
         Ruby Client\"\n    }, \n    {\n        \"description\": \"Ruby Client\", \n
         \       \"source_language_code\": \"eo\", \n        \"slug\": \"ruby-client\",
         \n        \"name\": \"Ruby Client\"\n    }\n]"
-    http_version: 
+    http_version:
   recorded_at: Wed, 03 May 2017 15:27:11 GMT
 recorded_with: VCR 3.0.3

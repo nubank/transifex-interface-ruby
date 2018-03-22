@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en
     body:
       encoding: UTF-8
       string: "{}"
@@ -47,6 +47,6 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "{\n    \"coordinators\": [\n        \"wirido\"\n    ], \n    \"translators\":
         [], \n    \"reviewers\": []\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 15:28:36 GMT
 recorded_with: VCR 3.0.3
