@@ -1,0 +1,45 @@
+AllCops:
+  TargetRubyVersion: 2.3.4
+
+########################### Layout #####################################
+
+Layout/TrailingWhitespace:
+  Description: 'Avoid trailing whitespace.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#no-trailing-whitespace'
+  Enabled: true
+
+Layout/EmptyLines:
+  Description: "Don't use several empty lines in a row."
+  Enabled: false
+
+#################### Naming ##########################
+
+Naming/VariableNumber:
+  Description: 'Use the configured style when numbering variables.'
+  Enabled: false
+
+########################### Styles #####################################
+
+Style/Documentation:
+  Description: 'Document classes and non-namespace modules.'
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Description: 'Checks style of children classes and modules. (compact or nested)'
+  EnforcedStyle: nested
+  Enabled: false
+
+Style/MultilineTernaryOperator:
+  Description: >-
+                 Avoid multi-line ?: (the ternary operator);
+                 use if/unless instead.
+  StyleGuide: '#no-multiline-ternary'
+  Enabled: false
+
+########################### Metrics #####################################
+
+Metrics/LineLength:
+  Description: 'Limit lines to XX characters.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#80-character-limits'
+  Max: 150
+  Enabled: false

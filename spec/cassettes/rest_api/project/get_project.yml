@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.transifex.com/organizations/juntos/projects/x93nR3ebyL4/
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Transifex-interface-ruby/0.0.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Authorization:
+      - Basic YXBpOjEvYjBlMzBjMDRkNjc2Nzg4OTRkNWFiNThlOWJkNThhYmE5OTFkYjc1Yg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 23 Mar 2018 00:43:59 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Allow:
+      - GET, OPTIONS
+      X-Transifex-Project:
+      - ''
+      X-Transifex-User:
+      - juntos.admin
+      X-Transifex-View:
+      - ProjectViewSet:retrieve
+      X-Transifex-Organization:
+      - juntos
+    body:
+      encoding: ASCII-8BIT
+      string: '{"id":135800,"name":"BankoBanko (test)","slug":"x93nR3ebyL4","tags":["oberdingle","taglich","uno
+        dos tres"],"languages":[{"code":"gd","name":"Gaelic, Scottish"},{"code":"hi_IN","name":"Hindi
+        (India)"},{"code":"si_LK","name":"Sinhala (Sri Lanka)"}],"total_resources":3,"source_language":{"code":"en_US","name":"English
+        (United States)"},"type":"file","logo_url":"https://transifex.s3.amazonaws.com:443/mugshots/a3a4e7f1db.png","description":"Test
+        project created by greg","stringcount":3,"wordcount":20,"long_description":"No,
+        really, this is a test project. So test this.","website_url":"https://www.juntosglobal.com/","maintainers":["juntos.admin"],"created":"2018-02-10T01:45:17.552548Z","last_update":"2018-03-12T20:41:50.609854Z","private":true,"repository_url":"","archived":false,"team":{"id":83559,"name":"BankoBanko
+        test team"},"stats":{"gd":{"reviewed_1":{"last_activity":"2018-03-12T20:41:50.571403Z","name":"reviewed","percentage":0.6666666666666666,"stringcount":2,"wordcount":19},"translated":{"last_activity":"2018-03-12T20:40:59.674943Z","name":"translated","percentage":0.6666666666666666,"stringcount":2,"wordcount":19}},"si_LK":{"reviewed_1":{"last_activity":"2018-02-15T05:50:39.270525Z","name":"reviewed","percentage":0.3333333333333333,"stringcount":1,"wordcount":1},"translated":{"last_activity":"2018-02-28T22:21:24.485142Z","name":"translated","percentage":0.6666666666666666,"stringcount":2,"wordcount":2}},"hi_IN":{"reviewed_1":{"last_activity":null,"name":"reviewed","percentage":0.0,"stringcount":0,"wordcount":0},"translated":{"last_activity":null,"name":"translated","percentage":0.0,"stringcount":0,"wordcount":0}}}}'
+    http_version: 
+  recorded_at: Fri, 23 Mar 2018 00:43:59 GMT
+recorded_with: VCR 4.0.0
