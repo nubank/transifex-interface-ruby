@@ -28,8 +28,10 @@ module Transifex
         def update(params)
           params = [params] unless params.is_a?(Array)
           params.each do |param|
-            raise MissingParametersError.new(["key"]) unless param.key?(:key)
-            param[:source_entity_hash] = compute_source_entity_hash(param[:key], param[:context])
+            unless param.key?(:source_entity_hash)
+              raise(MissingParametersError, 'key') unless param.key?(:key)
+              param[:source_entity_hash] = compute_source_entity_hash(param[:key], param[:context])
+            end
           end
           super
         end 
