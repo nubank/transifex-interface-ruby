@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en?file=true
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en?file=true
     body:
       encoding: UTF-8
       string: "{}"
@@ -51,6 +51,6 @@ http_interactions:
       string: 'en: {}
 
 '
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 08:29:10 GMT
 recorded_with: VCR 3.0.3

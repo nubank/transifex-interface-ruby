@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://www.transifex.com/api/2/project/ruby-client/resources
+    uri: https://www.transifex.com/api/2/project/ruby-client/resources
     body:
       encoding: UTF-8
       string: '{"slug":"file_resource","name":"with file","i18n_type":"YML","content":"eo:\n  test_string:
@@ -50,6 +50,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: "[\n    1, \n    0, \n    0\n]"
-    http_version: 
+    http_version:
   recorded_at: Thu, 27 Apr 2017 16:47:40 GMT
 recorded_with: VCR 3.0.3

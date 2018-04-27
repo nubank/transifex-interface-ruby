@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test
     body:
       encoding: UTF-8
       string: "{}"
@@ -55,6 +55,6 @@ http_interactions:
         name\", \n    \"i18n_type\": \"YML\", \n    \"priority\": \"0\", \n    \"slug\":
         \"test\", \n    \"categories\": [\n        \"test1\", \n        \"test2\"\n
         \   ]\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 09:44:35 GMT
 recorded_with: VCR 3.0.3

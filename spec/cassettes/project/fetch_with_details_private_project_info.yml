@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/private-ruby-client?details=true
+    uri: https://www.transifex.com/api/2/project/private-ruby-client?details=true
     body:
       encoding: UTF-8
       string: "{}"
@@ -61,6 +61,6 @@ http_interactions:
         \       \"slug\": \"freego\"\n    }, \n    \"teams\": [\n        \"en\", \n
         \       \"de\"\n    ], \n    \"homepage\": \"\", \n    \"long_description\":
         \"\", \n    \"resources\": [], \n    \"name\": \"Private Ruby Client\"\n}"
-    http_version: 
+    http_version:
   recorded_at: Wed, 03 May 2017 13:18:18 GMT
 recorded_with: VCR 3.0.3

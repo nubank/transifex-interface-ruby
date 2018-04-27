@@ -26,6 +26,7 @@ To initialize the gem, you will have to create an initializer like follow:
 Transifex.configure do |c|
   c.client_login = 'your_client_login'
   c.client_secret = 'your_secret'    
+  c.organization = 'your_organization_slug'
 end
 ```
 Then restart the server.

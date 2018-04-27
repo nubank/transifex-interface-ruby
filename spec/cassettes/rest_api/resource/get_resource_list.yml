@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.transifex.com/organizations/juntos/projects/x93nR3ebyL4/resources/
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      Content-Type:
+      - application/json
+      Accept:
+      - application/json
+      User-Agent:
+      - Transifex-interface-ruby/0.0.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Authorization:
+      - Basic YXBpOjEvYjBlMzBjMDRkNjc2Nzg4OTRkNWFiNThlOWJkNThhYmE5OTFkYjc1Yg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 23 Mar 2018 01:02:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Allow:
+      - GET, OPTIONS
+      X-Transifex-Project:
+      - x93nR3ebyL4
+      X-Transifex-User:
+      - juntos.admin
+      X-Transifex-View:
+      - ResourceViewSet:list
+      X-Transifex-Organization:
+      - juntos
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"id":938476,"slug":"fiWPsorUor4","name":"BannkoBanko gossip 2","priority":"1","i18n_type":"XLIFF","stringcount":1,"wordcount":1,"categories":null,"created":"2018-02-15T05:10:42.396102Z","last_update":"2018-03-09T19:25:01.867466Z","accept_translations":false,"stats":{"language_code":null,"reviewed_1":{"name":"reviewed","percentage":0.3333,"stringcount":1,"last_activity":"2018-03-08T03:59:22.384259Z","wordcount":1},"translated":{"name":"translated","percentage":0.6667,"stringcount":2,"last_activity":"2018-03-08T03:54:21.635161Z","wordcount":2}}},{"id":938477,"slug":"Gs_1y5B6W1c","name":"For
+        friends in Lanka","priority":"1","i18n_type":"XLIFF","stringcount":1,"wordcount":1,"categories":["Lion","Cougar","Puma","Leopard"],"created":"2018-02-15T05:14:22.016911Z","last_update":"2018-03-06T00:46:39.292611Z","accept_translations":true,"stats":{"language_code":null,"reviewed_1":{"name":"reviewed","percentage":0.3333,"stringcount":1,"last_activity":"2018-02-15T05:50:39.270525Z","wordcount":1},"translated":{"name":"translated","percentage":0.3333,"stringcount":1,"last_activity":"2018-02-28T22:21:24.243585Z","wordcount":1}}},{"id":968307,"slug":"FrY32MHSe9I","name":"For
+        friends in Lanka","priority":"1","i18n_type":"XLIFF","stringcount":1,"wordcount":18,"categories":null,"created":"2018-03-09T23:26:17.391277Z","last_update":"2018-03-16T19:06:11.343324Z","accept_translations":true,"stats":{"language_code":null,"reviewed_1":{"name":"reviewed","percentage":0.3333,"stringcount":1,"last_activity":"2018-03-12T20:41:50.571403Z","wordcount":18},"translated":{"name":"translated","percentage":0.3333,"stringcount":1,"last_activity":"2018-03-12T20:40:59.674943Z","wordcount":18}}}]'
+    http_version: 
+  recorded_at: Fri, 23 Mar 2018 01:02:44 GMT
+recorded_with: VCR 4.0.0

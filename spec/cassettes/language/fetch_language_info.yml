@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/language/fr
+    uri: https://www.transifex.com/api/2/language/fr
     body:
       encoding: UTF-8
       string: "{}"
@@ -53,6 +53,6 @@ http_interactions:
       encoding: ASCII-8BIT
       string: "{\n    \"rtl\": false, \n    \"pluralequation\": \"language.pluralequation\",
         \n    \"code\": \"fr\", \n    \"name\": \"French\", \n    \"nplurals\": 2\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 14:59:03 GMT
 recorded_with: VCR 3.0.3

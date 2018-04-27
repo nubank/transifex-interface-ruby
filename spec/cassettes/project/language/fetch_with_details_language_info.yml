@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/language/en?details=true
+    uri: https://www.transifex.com/api/2/project/ruby-client/language/en?details=true
     body:
       encoding: UTF-8
       string: "{}"
@@ -49,6 +49,6 @@ http_interactions:
         [], \n    \"total_segments\": 4, \n    \"untranslated_segments\": 4, \n    \"translated_words\":
         0, \n    \"reviewed_segments\": 0, \n    \"translators\": [], \n    \"translated_segments\":
         0\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 15:30:51 GMT
 recorded_with: VCR 3.0.3

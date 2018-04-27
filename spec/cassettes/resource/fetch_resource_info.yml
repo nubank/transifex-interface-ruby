@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/json
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/json
     body:
       encoding: UTF-8
       string: "{}"
@@ -54,6 +54,6 @@ http_interactions:
       string: "{\n    \"source_language_code\": \"eo\", \n    \"name\": \"JSON file
         example\", \n    \"i18n_type\": \"KEYVALUEJSON\", \n    \"priority\": \"0\",
         \n    \"slug\": \"json\", \n    \"categories\": null\n}"
-    http_version: 
+    http_version:
   recorded_at: Fri, 28 Apr 2017 09:20:30 GMT
 recorded_with: VCR 3.0.3

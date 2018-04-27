@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/translation/eo
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/translation/eo
     body:
       encoding: UTF-8
       string: '{"i18n_type":"YAML","content":"eo:\n  test_string: \"test string\"\n"}'
@@ -49,6 +49,6 @@ http_interactions:
     body:
       encoding: UTF-8
       string: Cannot update the source language
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 09:13:19 GMT
 recorded_with: VCR 3.0.3

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: put
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en/strings
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en/strings
     body:
       encoding: UTF-8
       string: '[{"key":"test_string","translation":"updated translation","source_entity_hash":"1dc9aad7928cb3cb1b400d17d39a8523"}]'
@@ -46,11 +46,11 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: OK
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 13:55:34 GMT
 - request:
     method: get
-    uri: http://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en/string/1dc9aad7928cb3cb1b400d17d39a8523
+    uri: https://www.transifex.com/api/2/project/ruby-client/resource/test/translation/en/string/1dc9aad7928cb3cb1b400d17d39a8523
     body:
       encoding: UTF-8
       string: "{}"
@@ -99,6 +99,6 @@ http_interactions:
         string\", \n    \"translation\": \"updated translation\", \n    \"last_update\":
         \"2017-05-04T13:52:15.278\", \n    \"pluralized\": false, \n    \"occurrences\":
         null\n}"
-    http_version: 
+    http_version:
   recorded_at: Thu, 04 May 2017 13:55:34 GMT
 recorded_with: VCR 3.0.3
